@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  max-width: 6rem;
+  align-items: flex-start;
+  background-image: url(content/logosinfondo.png);
+}
+
+header {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  height: 100%;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.hero {
+  background-image: url(content/campo.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.heroclub {
+  background-image: url(content/clubfondo.jpg);
+  margin: 0;
+}
+.herobancos{
+  background-image: url(content/mejores-bancos-de-semillas.jpg);
+}
+.herocontactos{
+  background-image: none;
+  background-color: lightslategray;
+}
+.hero h1 {
+  font-size: 70px;
+  background-color: rgba(0, 0, 0, 0.514);
+}
+
+.hero p {
+  max-width: 900px;
+  background-color: rgba(0, 0, 0, 0.514);
+}
+
+.tarjetitas {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.tarjetita {
+  background-color: grey;
+  padding: 1rem;
+  flex: 1;
+  border-radius: 10px;
+}
+
+.info {
+  padding: 1rem;
+}
+
+.tarjetita img {
+  max-width: 100%;
+  height: 25vh;
+}
+
+.tarjetita p {
+  background-color: rgba(163, 163, 163, 0.164);
+
+}
+
+.calidad {
+  display: flex;
+  height: 3fr;
+  background-color: rgb(214, 214, 214);
+  margin-top: 5px;
+}
+
+.calidad h2 {
+  color: black;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+  font-size: 40px;
+}
+
+.calidad p {
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.calidad img {
+  height: 30vh;
+}
+
+footer ul {
+  background-color: white;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  align-items: center;
+  gap: 2rem;
+  justify-content: flex-end;
+  min-height: 5rem;
+}
+-
+.container{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 200px);
+  padding: 10px;
+  grid-gap: 10px;
+}
+.item{
+  background-color: white;
+  border: 2px solid #000;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+.item1{
+  background-image: url(./content/rkiemseeds-logo-.png);
+}
+.item2{
+  background-image: url(./content/cannabis-g7d58efc97_1920.jpg);
+}
+.item3{
+  background-image: url(./content/barney\ farm\ logo.png);
+}
+.item4{
+  background-image: url(./content/bote-cierre.jpg);
+}
+.item5{
+  background-image: url(./content/campo.jpg);
+}
+.item6{
+  background-image: url(./content/Dutch-Passion-logo.jpg);
+}
+.item7{
+  background-image: url(./content/sweet\ seeds\ logo.svg);
+}
+.item8{
+  background-image: url(./content/Sensi-seeds-logo-2017.jpg);
+}
+
+@media only screen and (min-width: 480px){
+  .container{
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(4, 200px);
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .container{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
+}
+/*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */
