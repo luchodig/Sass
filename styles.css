@@ -45,7 +45,7 @@ header {
   margin: 0;
 }
 .herobancos{
-  background-image: url(content/mejores-bancos-de-semillas.jpg);
+  background-image: url(content/semillasdecannabis.png);
 }
 .herocontactos{
   background-image: none;
@@ -66,6 +66,7 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   gap: 2rem;
+  
 }
 
 .tarjetita {
@@ -73,6 +74,8 @@ header {
   padding: 1rem;
   flex: 1;
   border-radius: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .info {
@@ -126,30 +129,33 @@ footer ul {
   justify-content: flex-end;
   min-height: 5rem;
 }
--
+
 .container{
   width: 100%;
-  height: 100px;
-  background-color: white;
-  background-size: cover;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(8, 200px);
-  padding: 10px;
-  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  
 }
 .item{
   background-color: white;
-  border: 2px solid #000;
-  height: 200px;
-  background-size: cover;
+  border: 2px solid black;
+  height: 20vh;
+  width: 20vw;
+  background-size:contain;
+  background-repeat: no-repeat;
   background-position: center;
+
 }
 .item1{
   background-image: url(./content/rkiemseeds-logo-.png);
 }
 .item2{
-  background-image: url(./content/cannabis-g7d58efc97_1920.jpg);
+  background-image: url(./content/0188-medical-seeds.jpg);
 }
 .item3{
   background-image: url(./content/barney\ farm\ logo.png);
@@ -174,13 +180,15 @@ footer ul {
   .container{
       grid-template-columns: 1fr 1fr;
       grid-template-rows: repeat(4, 200px);
+      display: grid;
   }
 }
 
 @media only screen and (min-width: 768px){
   .container{
       grid-template-columns: 1fr 1fr 1fr 1fr;
-
+      grid-template-rows: repeat(2, 200px);
+      display: grid;
   }
-}
+
 /*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */

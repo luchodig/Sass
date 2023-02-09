@@ -45,7 +45,7 @@ header {
   margin: 0;
 }
 .herobancos{
-  background-image: url(content/mejores-bancos-de-semillas.jpg);
+  background-image: url(content/semillasdecannabis.png);
 }
 .herocontactos{
   background-image: none;
@@ -65,18 +65,21 @@ header {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
-  gap: 1rem;
+  gap: 2rem;
+  
 }
 
 .tarjetita {
-  background-color: whitesmoke;
+  background-color: grey;
   padding: 1rem;
   flex: 1;
   border-radius: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .info {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .tarjetita img {
@@ -85,7 +88,8 @@ header {
 }
 
 .tarjetita p {
-  background-color: rgba(0, 0, 0, 0.164);
+  background-color: rgba(163, 163, 163, 0.164);
+
 }
 
 .calidad {
@@ -125,3 +129,66 @@ footer ul {
   justify-content: flex-end;
   min-height: 5rem;
 }
+
+.container{
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+.item{
+  background-color: white;
+  border: 2px solid black;
+  height: 20vh;
+  width: 20vw;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.item1{
+  background-image: url(./content/rkiemseeds-logo-.png);
+}
+.item2{
+  background-image: url(./content/0188-medical-seeds.jpg);
+}
+.item3{
+  background-image: url(./content/barney\ farm\ logo.png);
+}
+.item4{
+  background-image: url(./content/bote-cierre.jpg);
+}
+.item5{
+  background-image: url(./content/campo.jpg);
+}
+.item6{
+  background-image: url(./content/Dutch-Passion-logo.jpg);
+}
+.item7{
+  background-image: url(./content/sweet\ seeds\ logo.svg);
+}
+.item8{
+  background-image: url(./content/Sensi-seeds-logo-2017.jpg);
+}
+
+@media only screen and (min-width: 480px){
+  .container{
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(4, 200px);
+      display: grid;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .container{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: repeat(2, 200px);
+      display: grid;
+  }
+
+/*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */
